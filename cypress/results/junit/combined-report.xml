@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testsuites failures="1" errors="0" tests="6" skipped="0">
+  <testsuite name="Root Suite" timestamp="2023-01-24T12:41:41" tests="0" file="cypress\e2e\features\navigation\navigation.feature" time="0.000" failures="0"/>
+  <testsuite name="Navigation Bar" timestamp="2023-01-24T12:41:41" tests="1" time="11.667" failures="1">
+    <testcase name="Navigation Bar Navigation to the Feature Navigation Bar" time="5.559" classname="Navigation to the Feature Navigation Bar">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#account_summary_tab`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#account_summary_tab`, but never found it.
+    at LoginPage.validarLoginExitoso (webpack://avanzado/./cypress/pageObjects/LoginPage.js:30:0)
+    at Context.eval (webpack://avanzado/./cypress/e2e/features/navigation/navigation.js:12:0)
+    at Registry.runStepDefininition (webpack://avanzado/./node_modules/@badeball/cypress-cucumber-preprocessor/lib/registry.js:119:0)
+    at Object.fn (webpack://avanzado/./node_modules/@badeball/cypress-cucumber-preprocessor/lib/create-tests.js:299:0)
+    at runStepWithLogGroup (webpack://avanzado/./node_modules/@badeball/cypress-cucumber-preprocessor/lib/cypress.js:11:0)
+    at Context.eval (webpack://avanzado/./node_modules/@badeball/cypress-cucumber-preprocessor/lib/create-tests.js:296:0)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-01-24T12:41:58" tests="0" file="cypress\support\step_definitions\login\login.feature" time="0.000" failures="0"/>
+  <testsuite name="Login" timestamp="2023-01-24T12:41:58" tests="1" time="3.786" failures="0">
+    <testcase name="Login Login with valid credetials" time="2.263" classname="Login with valid credetials"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-01-24T12:41:31" tests="0" file="cypress\e2e\features\loginOutline\loginOutline.feature" time="0.000" failures="0"/>
+  <testsuite name="Login Outline" timestamp="2023-01-24T12:41:31" tests="4" time="5.539" failures="0">
+    <testcase name="Login Outline Login with invald credentials (example #1)" time="1.285" classname="Login with invald credentials (example #1)"/>
+    <testcase name="Login Outline Login with invald credentials (example #2)" time="0.726" classname="Login with invald credentials (example #2)"/>
+    <testcase name="Login Outline Login with invald credentials (example #3)" time="0.760" classname="Login with invald credentials (example #3)"/>
+    <testcase name="Login Outline Login with invald credentials (example #4)" time="0.731" classname="Login with invald credentials (example #4)"/>
+  </testsuite>
+</testsuites>
